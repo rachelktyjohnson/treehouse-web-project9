@@ -14,8 +14,32 @@ app.get('/about',(req, res)=>{
     res.render('about');
 })
 
-app.get('/project/:id',(req, res)=>{
-    res.render('project', {data: data.projects[req.params.id]})
+app.get('/project/:id',(req, res, next)=>{
+    if (data.projects[req.params.id]){
+        res.render('project', {data: data.projects[req.params.id]})
+    } else {
+        const err = new Error();
+        err.status = 404;
+        err.message = "Oops, no project with that ID";
+        next(err);
+    }
+})
+
+app.use((req,res,next)=>{
+    console.log("404 error!");
+    res.status(404).render('index');
+})
+
+app.use((err, req, res, next)=>{
+    if (err){
+        console.log("Global error handler called", err);
+    }
+    if (err.status===404){
+        res.status(404).render('index', {err});
+    } else {
+        err.message = err.message || "Oops. Something went wrong on the server!";
+        res.status(err.status || 500).render('error', {err});
+    }
 })
 
 app.listen(port, () => {
