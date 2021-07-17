@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Create a Profile Page",
+      "description": "Customize a personal online profile by adding graphics, customizing text, and improving the look of a web page using Cascading Style Sheets, the formatting language of the web.",
+      "technologies": ["HTML","CSS"],
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project1/",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project1",
+      "image_urls": ["../public/img/p1-thumbnail","../public/img/p1-screenshot"]
+    },
+    {
+      "id": 1,
+      "project_name": "Mobile First Responsive Layout with HTML and CSS",
+      "description": "Designing web pages that look and function well on multiple screen sizes is essential for a web developer. Using HTML, CSS, and responsive design, you'll create a mobile-first web page with a layout that adjusts to fit mobile phones, tablets, and desktop displays.",
+      "technologies": ["HTML","CSS"],
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project2/",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project2",
+      "image_urls": ["../public/img/p2-thumbnail","../public/img/p2-screenshot"]
+    },
+    {
+      "id": 2,
+      "project_name": "Create a Responsive Registration Form",
+      "description": "Web forms appear everywhere online: forms allow users to order books, sign up for websites, and post to Facebook. This project challenges you to build a responsive, mobile-first registration form using various HTML form elements.",
+      "technologies": ["HTML","CSS"],
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project3/",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project3",
+      "image_urls": ["../public/img/p3-thumbnail","../public/img/p3-screenshot"]
+    },
+    {
+      "id": 3,
+      "project_name": "Build a Random Quote Generator with JavaScript",
+      "description": "Practice your knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator. This program displays a randomly selected quote each time the user clicks a button.",
+      "technologies": ["HTML","CSS", "Javascript"],
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project4/",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project4",
+      "image_urls": ["../public/img/p4-thumbnail","../public/img/p4-screenshot"]
+    },
+    {
+      "id": 4,
+      "project_name": "Develop a Word Guessing Game",
+      "description": "In this project, you'll create a browser version of \"Wheel of Success\", a word guessing game. You'll use JavaScript to develop a random phrase that players will try to guess by entering different letters into the program.",
+      "technologies": ["HTML","CSS", "Javascript"],
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project5/",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project5",
+      "image_urls": ["../public/img/p5-thumbnail","../public/img/p5-screenshot"]
+    },
+    {
+      "id": 5,
+      "project_name": "Data Pagination and Filtering with JavaScript",
+      "description": "Displaying a large amount of data on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to create separate \"pages\" that display a small portion of the data. In this project, you'll write JavaScript to display several \"pages\" of student data that the user can easily navigate and view.",
+      "technologies": ["HTML","CSS", "Javascript"],
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project6/",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project6",
+      "image_urls": ["../public/img/p6-thumbnail","../public/img/p6-screenshot"]
+    },
+    {
+      "id": 6,
+      "project_name": "Program an Interactive Registration Form",
+      "description": "Web developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+      "technologies": ["HTML","CSS", "Javascript"],
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project7/",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project7",
+      "image_urls": ["../public/img/p7-thumbnail","../public/img/p7-screenshot"]
+    },
+    {
+      "id": 7,
+      "project_name": "Connect to and Use a Public API",
+      "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia, to name a few — offer a vast sea of data that you can access and display on your web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).",
+      "technologies": ["HTML","CSS", "Javascript"],
+      "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project8/",
+      "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project8",
+      "image_urls": ["../public/img/p8-thumbnail","../public/img/p8-screenshot"]
+    }
+  ]
+}
