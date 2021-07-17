@@ -10,11 +10,11 @@ You'll create a JSON file to store all the data about the projects you've made.
 You'll use Pug to complete provided templates that utilize the JSON to generate the markup that is ultimately displayed in the browser.
 
 You'll use Node.js and Express to:
+- Import the required dependencies
+- Link the JSON with the Pug templates
+- Set up routes to handle requests
+- Set up the middleware to utilize static files like CSS
+- Handle errors
+- Set up a server to serve the project
 
-Import the required dependencies
-Link the JSON with the Pug templates
-Set up routes to handle requests
-Set up the middleware to utilize static files like CSS
-Handle errors
-Set up a server to serve the project
-After building this project, you should have a comfortable working knowledge of Node.js, Express, and Pug, setting up a server, handling requests, working with server-side JavaScript, and building a robust and modern back-end project. And you'll have an important new skill to make you more marketable as a Full Stack JavaScript Developer.
+After building this project, you should have a comfortable working knowledge of Node.js, Express, and Pug, setting up a server, handling requests, working with server-side - JavaScript, and building a robust and modern back-end project. And you'll have an important new skill to make you more marketable as a Full Stack JavaScript Developer.
