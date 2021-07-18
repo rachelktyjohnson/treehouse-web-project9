@@ -26,20 +26,23 @@ app.get('/project/:id',(req, res, next)=>{
 })
 
 app.use((req,res,next)=>{
-    console.log("404 error!");
-    res.status(404).render('error');
+    const err = new Error();
+    err.status = 404;
+    err.message = "Oops. That page doesn't exist.";
+    next(err);
 })
 
 app.use((err, req, res, next)=>{
     if (err){
         console.log("Global error handler called", err);
+        if (err.status===404){
+            res.status(404).render('page-not-found', {err});
+        } else {
+            err.message = err.message || "Oops. Something went wrong on the server!";
+            res.status(err.status || 500).render('error', {err});
+        }
     }
-    if (err.status===404){
-        res.status(404).render('error', {err});
-    } else {
-        err.message = err.message || "Oops. Something went wrong on the server!";
-        res.status(err.status || 500).render('error', {err});
-    }
+
 })
 
 app.listen(port, () => {
