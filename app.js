@@ -27,7 +27,7 @@ app.get('/project/:id',(req, res, next)=>{
 
 app.use((req,res,next)=>{
     console.log("404 error!");
-    res.status(404).render('index');
+    res.status(404).render('error');
 })
 
 app.use((err, req, res, next)=>{
@@ -35,7 +35,7 @@ app.use((err, req, res, next)=>{
         console.log("Global error handler called", err);
     }
     if (err.status===404){
-        res.status(404).render('index', {err});
+        res.status(404).render('error', {err});
     } else {
         err.message = err.message || "Oops. Something went wrong on the server!";
         res.status(err.status || 500).render('error', {err});
