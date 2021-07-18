@@ -7,7 +7,7 @@
       "technologies": ["HTML","CSS"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project1/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project1",
-      "image_urls": ["../public/img/p1-thumbnail","../public/img/p1-screenshot"]
+      "image_urls": ["../public/img/p1-thumbnail.jpg","../public/img/p1-screenshot.jpg"]
     },
     {
       "id": 1,
@@ -16,7 +16,7 @@
       "technologies": ["HTML","CSS"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project2/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project2",
-      "image_urls": ["../public/img/p2-thumbnail","../public/img/p2-screenshot"]
+      "image_urls": ["../public/img/p2-thumbnail.jpg","../public/img/p2-screenshot.jpg"]
     },
     {
       "id": 2,
@@ -25,7 +25,7 @@
       "technologies": ["HTML","CSS"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project3/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project3",
-      "image_urls": ["../public/img/p3-thumbnail","../public/img/p3-screenshot"]
+      "image_urls": ["../public/img/p3-thumbnail.jpg","../public/img/p3-screenshot.jpg"]
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "technologies": ["HTML","CSS", "Javascript"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project4/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project4",
-      "image_urls": ["../public/img/p4-thumbnail","../public/img/p4-screenshot"]
+      "image_urls": ["../public/img/p4-thumbnail.jpg","../public/img/p4-screenshot.jpg"]
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
       "technologies": ["HTML","CSS", "Javascript"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project5/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project5",
-      "image_urls": ["../public/img/p5-thumbnail","../public/img/p5-screenshot"]
+      "image_urls": ["../public/img/p5-thumbnail.jpg","../public/img/p5-screenshot.jpg"]
     },
     {
       "id": 5,
@@ -52,7 +52,7 @@
       "technologies": ["HTML","CSS", "Javascript"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project6/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project6",
-      "image_urls": ["../public/img/p6-thumbnail","../public/img/p6-screenshot"]
+      "image_urls": ["../public/img/p6-thumbnail.jpg","../public/img/p6-screenshot.jpg"]
     },
     {
       "id": 6,
@@ -61,7 +61,7 @@
       "technologies": ["HTML","CSS", "Javascript"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project7/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project7",
-      "image_urls": ["../public/img/p7-thumbnail","../public/img/p7-screenshot"]
+      "image_urls": ["../public/img/p7-thumbnail.jpg","../public/img/p7-screenshot.jpg"]
     },
     {
       "id": 7,
@@ -70,7 +70,7 @@
       "technologies": ["HTML","CSS", "Javascript"],
       "live_link": "https://rachelktyjohnson.github.io/treehouse-web-project8/",
       "github_link": "https://github.com/rachelktyjohnson/treehouse-web-project8",
-      "image_urls": ["../public/img/p8-thumbnail","../public/img/p8-screenshot"]
+      "image_urls": ["../public/img/p8-thumbnail.jpg","../public/img/p8-screenshot.jpg"]
     }
   ]
 }
