@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+
+    article.portfolio-intro
+
+        //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!'
+        h1= "Error " + err.status +": "+ err.message
+
+        nav.nav
+            a(href='/')
+                span &larr;
+                |  Back
+
+        pre= err.stack
+
